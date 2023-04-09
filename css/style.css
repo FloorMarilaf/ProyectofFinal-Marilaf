@@ -1,0 +1,222 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,600&family=Roboto&family=Staatliches&display=swap");
+#botonera {
+  position: sticky;
+  background-color: rgba(67, 202, 139, 0.7960784314);
+  font-family: "Staatliches", cursive;
+}
+#botonera ul li a {
+  font-size: 1rem;
+  color: rgb(10, 10, 10);
+  /* Animacion subrayado */
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  transition: background-size 0.3s;
+}
+#botonera ul li a:hover {
+  color: rgb(241, 237, 234);
+  font-weight: 600;
+  background-size: 100% 2px;
+}
+
+#botonera ul li a img {
+  width: 30px;
+}
+
+
+
+body {
+  background-image: url(../img/background/bg-greenn.jpg);
+  background-repeat: repeat;
+  background-attachment: fixed;
+}
+
+h1 {
+  color: rgb(48, 50, 48);
+  font-family: "Staatliches", cursive;
+  font-size: 3rem;
+}
+
+h3 {
+  color: rgb(112, 185, 145);
+  font-family: "Staatliches", cursive;
+}
+
+#main {
+  background-image: url(../img/background/Womansmokingweed-766ebf3527144025bf3e07ac7ae4bd99.jpg);
+}
+
+.bg-green {
+  background-color: rgba(7, 219, 74, 0.5607843137);
+}
+
+.bg-sesion {
+  background-color: rgba(250, 250, 250, 0.432);
+}
+
+.anunciobox_white {
+  background-color: rgb(248, 249, 250);
+  color: black;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  text-align: center;
+  width: auto;
+  height: auto;
+  margin: 0;
+  padding: 5px 5px;
+}
+.shop-content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: "Staatliches";
+  margin: 10px;
+}
+.card > img {
+  width: 100%;
+  height: 250px;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: rgba(7, 219, 74, 0.5607843137);
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+
+.ver-carrito{
+  font-size: 1rem;
+  color: rgb(10, 10, 10);
+  /* Animacion subrayado */
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  transition: background-size 0.3s;
+
+}
+.modal-container {
+  width: 80%;
+  margin: 0 10%;
+  max-height: 88vh;
+  color: #31b575;
+  background-image: url(../img/background/bg-greenn.jpg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /*for the top*/
+  position: fixed;
+  overflow: auto;
+  z-index: 9;
+  top: 12vh;
+  scrollbar-color: none;
+}
+
+.modal-container::-webkit-scrollbar {
+  display: none;
+}
+.modal-header {
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+  color: #fff;
+  width: 100%;
+}
+
+.modal-header-titulo {
+  color: rgb(54, 205, 154);
+  justify-self: start;
+}
+
+.modal-header-button {
+  color: rgb(56, 216, 163);
+  cursor: pointer;
+}
+
+.modal-container > .modal-content {
+  font-family:"Staatliches" ;
+  font-size: 25px;
+  color: #2bbf8b ;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 70%;
+  margin: 10px;
+}
+
+.modal-container > div > img {
+  height: 120px;
+  width: 120px;
+}
+
+.total-content {
+  font-family:"Staatliches";
+  font-size: 25px;
+  padding: 20px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.delete-product{
+  cursor:pointer;
+}
+.cantidad-carrito {
+  background-color: rgb(3, 22, 3);
+  color: white;
+  border-radius: 50%;
+  font-size: 12px;
+  padding: 4px;
+  top: 37px;
+  right: 14px;
+  position: absolute;
+  display: none;
+}
+
+.restar {
+  cursor: pointer;
+}
+
+.sumar {
+  cursor: pointer;
+}
+
+.pagar-button{
+  font-family:"Staatliches" ;
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: rgba(7, 219, 74, 0.5607843137);
+  text-align: center;
+  cursor: pointer;
+  width: 50%;
+  font-size: 18px;
+}
+
+
+/*# sourceMappingURL=style.css.map */
