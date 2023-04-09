@@ -3,21 +3,21 @@
         "id": 1,
         "nombre":"Pipa calavera",
         "precio": 1800,
-        "img": "./img/producto pipas/IMG_20211229_160209_829.jpg",
+        "img": "../img/producto pipas/IMG_20211229_160209_829.jpg",
         "cantidad": 1
     },
     {
         "id": 2,
         "nombre": "Pipa Aluminio",
         "precio": 1600,
-        "img": "./img/producto pipas/IMG_20211229_160209_850.jpg",
+        "img": "../img/producto pipas/IMG_20211229_160209_850.jpg",
         "cantidad": 1
     },
     {
         "id": 3,
         "nombre": "Pipa Fuegos",
         "precio": 1800,
-        "img": "./img/producto pipas/SAVE_20211228_215856.jpg",
+        "img": "../img/producto pipas/SAVE_20211228_215856.jpg",
         "cantidad": 1
     },
     {
@@ -32,28 +32,28 @@
         "id": 5,
         "nombre": "Pipa Flower",
         "precio": 1600,
-        "img": "./img/producto pipas/Flower Pink Pipe - girly smoking accessories.jpeg",
+        "img": "../img/producto pipas/Flower Pink Pipe - girly smoking accessories.jpeg",
         "cantidad": 1
     },
     {
         "id": 6,
         "nombre": "Pipa Cosmo",
         "precio": 2300,
-        "img":"./img/producto pipas/Shatterproof smoking pipe!.jpeg",
+        "img":"../img/producto pipas/Shatterproof smoking pipe!.jpeg",
         "cantidad": 1
     },
     {
         "id": 7,
         "nombre": "Pipa Alien",
         "precio": 2000,
-        "img":"./img/producto pipas/An out of this world crystal pipe with a removable filter that'll take you on a spaceship far far away once you actually inhale_.jpeg",
+        "img":"../img/producto pipas/An out of this world crystal pipe with a removable filter that'll take you on a spaceship far far away once you actually inhale_.jpeg",
         "cantidad": 1
     },
     {
         "id": 8,
         "nombre": "Pipa Berenjena",
         "precio": 1000,
-        "img": "./img/producto pipas/Eggplant Pipe.jpeg",
+        "img": "../img/producto pipas/Eggplant Pipe.jpeg",
         "cantidad": 1
 
     }
